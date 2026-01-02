@@ -12,10 +12,10 @@ body {
 }
 
 .header {
-  width: 1200px;
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-inline: 50px;
 }
 
 .nav {
@@ -23,7 +23,7 @@ body {
 }
 
 .header__logo {
-  margin-left: 50px;
+  display: flex;
 }
 
 .nav__list {
@@ -31,7 +31,6 @@ body {
   margin: 0;
   padding: 0;
   list-style: none;
-  margin-right: 50px;
 }
 
 .nav__link {
